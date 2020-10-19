@@ -1,0 +1,20 @@
+Last login: Mon Oct 19 00:00:05 on ttys000
+junhaolis-MacBook-Pro:~ Yanping.Li$ cd Desktop/Lab7
+junhaolis-MacBook-Pro:Lab7 Yanping.Li$ make
+g++ -c main.cpp
+g++ main.o -o output
+junhaolis-MacBook-Pro:Lab7 Yanping.Li$ ls
+Makefile	a.out		main.cpp	main.o		output
+junhaolis-MacBook-Pro:Lab7 Yanping.Li$ ./output
+Hello C++!junhaolis-MacBook-Pro:Lab7 Yanping.Li$ vi main.cpp
+junhaolis-MacBook-Pro:Lab7 Yanping.Li$ make
+g++ -c main.cpp
+g++ main.o -o output
+junhaolis-MacBook-Pro:Lab7 Yanping.Li$ ls
+Makefile	a.out		main.cpp	main.o		output
+junhaolis-MacBook-Pro:Lab7 Yanping.Li$ ./output
+Hello World!junhaolis-MacBook-Pro:Lab7 Yanping.Li$ clean
+-bash: clean: command not found
+junhaolis-MacBook-Pro:Lab7 Yanping.Li$ make clean
+rm *.o output
+junhaolis-MacBook-Pro:Lab7 Yanping.Li$ 
